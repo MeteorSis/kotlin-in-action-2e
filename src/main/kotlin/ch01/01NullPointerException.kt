@@ -7,9 +7,9 @@ fun main() {
     //println(s.length) // compile error
     println(s?.length)
     try {
-    	println(s!!.length)
+        println(s!!.length)
     } catch (e: NullPointerException) {
         println(e)
     }
-	println(s2.length)
+    println(s2.length)
 }
