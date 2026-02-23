@@ -36,8 +36,10 @@ fun main() {
     val cset = CountingSet<Int>()
     cset.addAll(listOf(1, 1, 2))
     println("CountingSet: Added ${cset.objectsAdded} objects, ${cset.size} uniques.")
+    // CountingSet: Added 6 objects, 2 uniques.
 
     val csetByDelegation = CountingSetByDelegation<Int>()
     csetByDelegation.addAll(listOf(1, 1, 2))
     println("CountingSetByDelegation: Added ${csetByDelegation.objectsAdded} objects, ${csetByDelegation.size} uniques.")
+    // CountingSetByDelegation: Added 3 objects, 2 uniques.
 }
