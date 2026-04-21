@@ -7,5 +7,4 @@ import kotlin.time.Duration.Companion.milliseconds
 fun main() = runBlocking {
     delay(5000.milliseconds)
     println("Hello World!")
-    
 }
